@@ -14,8 +14,8 @@ export default class NavigateToObjectPage extends NavigationMixin(LightningEleme
 
     navigateToNewRecordWithDefault(){
         const defaultValue = encodeDefaultFieldValues({ 
-            FirstName:'Zero',
-            LastName:'Hero',
+            FirstName:'Demo',
+            LastName:'Demo',
             LeadSource:'Other'
         }) 
         this[NavigationMixin.Navigate]({ 
